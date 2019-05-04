@@ -1,6 +1,6 @@
 'use strict'
 
-const crypto = require('brave-crypto')
+const crypto = require('onevn-crypto')
 const messages = require('./constants/messages')
 const {syncVersion} = require('./config')
 

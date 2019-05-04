@@ -1,9 +1,9 @@
-# Brave Sync
+# OneVN Sync
 
 [![Build
-Status](https://travis-ci.org/brave/sync.svg?branch=master)](https://travis-ci.org/brave/sync)
+Status](https://travis-ci.org/onevn/sync.svg?branch=master)](https://travis-ci.org/onevn/sync)
 
-A client/server for Brave sync
+A client/server for OneVN sync
 
 ## Building
 
@@ -59,7 +59,7 @@ npm run start-dev
 
 ### Client integration
 
-To integrate Brave sync on a platform (iOS, Android, Laptop):
+To integrate OneVN sync on a platform (iOS, Android, Laptop):
 
 1. Make a new branch.
 2. In the main browser process, implement an IPC message handler as specified
@@ -74,7 +74,7 @@ To integrate Brave sync on a platform (iOS, Android, Laptop):
 3. `npm run dist`
 4. If developing, do `npm start` in browser-laptop. Console messages from the
    sync client will be logged in `Library/Application
-   Support/brave-development/chrome-debug.log`.
+   Support/onevn-development/chrome-debug.log`.
 
 ### Tests
 

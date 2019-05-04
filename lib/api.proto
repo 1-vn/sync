@@ -55,7 +55,7 @@ message SyncRecord {
     float zoomLevel = 2;
     bool shieldsUp = 3;
     enum AdControl {
-      SHOW_BRAVE_ADS = 0;
+      SHOW_ONEVN_ADS = 0;
       BLOCK_ADS = 1;
       ALLOW_ADS_AND_TRACKING = 2;
     }

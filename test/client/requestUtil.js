@@ -147,7 +147,7 @@ test('client RequestUtil', (t) => {
         deviceId: new Uint8Array([0]),
         objectId: testHelper.newUuid(),
         historySite: {
-          location: `https://brave.com?q=${'x'.repeat(4048)}`,
+          location: `https://1-vn.com?q=${'x'.repeat(4048)}`,
           title: 'lulz',
           lastAccessedTime: 1480000000 * 1000,
           creationTime: 1480000000 * 1000
@@ -192,7 +192,7 @@ test('client RequestUtil', (t) => {
         objectId: testHelper.newUuid(),
         bookmark: {
           site: {
-            location: `https://brave.com?q=${'x'.repeat(4096)}`,
+            location: `https://1-vn.com?q=${'x'.repeat(4096)}`,
             title: 'lulz',
             lastAccessedTime: 1480000000 * 1000,
             creationTime: 1480000000 * 1000
@@ -411,7 +411,7 @@ test('client RequestUtil', (t) => {
         objectId: testHelper.newUuid(),
         bookmark: {
           site: {
-            location: `https://brave.com?q=1`,
+            location: `https://1-vn.com?q=1`,
             title: 'lulz',
             lastAccessedTime: 1480000000 * 1000,
             creationTime: 1480000000 * 1000
@@ -426,7 +426,7 @@ test('client RequestUtil', (t) => {
           objectId: testHelper.newUuid(),
           bookmark: {
             site: {
-              location: `https://brave.com?q=2`,
+              location: `https://1-vn.com?q=2`,
               title: 'lulz',
               lastAccessedTime: 1480000000 * 1000,
               creationTime: 1480000000 * 1000
@@ -441,7 +441,7 @@ test('client RequestUtil', (t) => {
           objectId: testHelper.newUuid(),
           bookmark: {
             site: {
-              location: `https://brave.com?q=3`,
+              location: `https://1-vn.com?q=3`,
               title: 'lulz',
               lastAccessedTime: 1480000000 * 1000,
               creationTime: 1480000000 * 1000
@@ -456,7 +456,7 @@ test('client RequestUtil', (t) => {
           objectId: testHelper.newUuid(),
           bookmark: {
             site: {
-              location: `https://brave.com?q=4`,
+              location: `https://1-vn.com?q=4`,
               title: 'lulz',
               lastAccessedTime: 1480000000 * 1000,
               creationTime: 1480000000 * 1000
@@ -471,7 +471,7 @@ test('client RequestUtil', (t) => {
           objectId: testHelper.newUuid(),
           bookmark: {
             site: {
-              location: `https://brave.com?q=5`,
+              location: `https://1-vn.com?q=5`,
               title: 'lulz',
               lastAccessedTime: 1480000000 * 1000,
               creationTime: 1480000000 * 1000

@@ -150,7 +150,7 @@ RequestUtil.prototype.parseAWSResponse = function (bytes) {
       sessionToken: credentials.sessionToken
     }),
     // The bucket name is prepended to the endpoint to build the actual request URL, e.g.
-    // https://brave-sync-staging.s3.dualstack.us-west-2.amazonaws.com
+    // https://onevn-sync-staging.s3.dualstack.us-west-2.amazonaws.com
     endpoint: `https://s3.dualstack.${region}.amazonaws.com`,
     maxRetries: CONFIG.SERVICES_MAX_RETRIES,
     region: region,

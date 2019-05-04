@@ -1,19 +1,19 @@
 {
-  "name": "@brave/sync-client",
+  "name": "@onevn/sync-client",
   "version": "0.1.0",
-  "description": "Browserified sync client for Brave",
+  "description": "Browserified sync client for OneVN",
   "main": "bundle.js",
   "scripts": {
     "test": "cd .. && npm run browsertest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/sync.git"
+    "url": "git+https://github.com/1-vn/sync.git"
   },
-  "author": "yan@brave.com",
+  "author": "yan@1-vn.com",
   "license": "MPL-2.0",
   "bugs": {
-    "url": "https://github.com/brave/sync/issues"
+    "url": "https://github.com/1-vn/sync/issues"
   },
-  "homepage": "https://github.com/brave/sync#readme"
+  "homepage": "https://github.com/1-vn/sync#readme"
 }

@@ -21,6 +21,6 @@ module.exports = {
   SQS_MESSAGES_LONGPOLL_TIMEOUT: 10, // In seconds
   // 2-byte encryption nonce counter, rotated periodically
   nonceCounter: 0,
-  // Sync library version, updated every brave/sync release
+  // Sync library version, updated every onevn/sync release
   syncVersion: 'v1.4.3'
 }

@@ -1,6 +1,6 @@
 const test = require('tape')
 const crypto = require('../lib/crypto')
-const {hexToUint8, uint8ToHex} = require('brave-crypto')
+const {hexToUint8, uint8ToHex} = require('onevn-crypto')
 const serializer = require('../lib/serializer')
 
 function init() {
