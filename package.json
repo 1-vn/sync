@@ -53,7 +53,7 @@
   "dependencies": {
     "@protobufjs/utf8": "^1.1.0",
     "aws-sdk": "^2.331.0",
-    "onevn-crypto": "^0.2.0",
+    "onevn-crypto": "^0.2.1",
     "config": "^1.24.0",
     "cors": "^2.8.1",
     "crc": "^3.4.4",
